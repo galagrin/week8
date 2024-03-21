@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Roboto Slab Light";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  src: url("../fonts/ofont.ru_Roboto Slab.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  src: url("../fonts/roboto-slab-v34-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Intro";
+  font-style: regular;
+  font-weight: 400;
+  line-height: 120%;
+  src: url("../fonts/ofont.ru_Intro.ttf") format("truetype");
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 76px;
+  margin-top: 50px;
+}
+.header .header__button {
+  border-radius: 100px;
+  width: 115px;
+  height: 38px;
+  margin-right: 75px;
+  background: #5222d0;
+  font-family: "Intro";
+  font-size: 13px;
+  color: #fff;
+}
+.header .header__button:hover {
+  color: #ec615b;
+}
+.header .header__logo {
+  margin-left: 75px;
+}
+
+nav {
+  margin-left: 80px;
+  margin-top: 86px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.menu .menu__link {
+  margin-right: 34px;
+  font-family: "Roboto Slab Light";
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.title__heading {
+  margin-left: 125px;
+  font-family: "Intro";
+  font-size: 60px;
+  color: #000;
+}
+
+.cardwrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(365px, 1fr));
+  grid-template-rows: 2fr 1fr;
+  gap: 10px;
+  max-width: 1242px;
+  margin-left: 127px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  max-width: 365px;
+}
+.card .card__heading {
+  font-family: "Intro";
+  font-size: 30px;
+  color: #000;
+}
+.card .card__text {
+  font-family: "Roboto Slab Light";
+  line-height: 160%;
+  font-size: 20px;
+  color: #000;
+}
+.card:last-child {
+  background: #ec615b;
+}
+
+.card__heading-white {
+  margin-left: 18px;
+  margin-top: 25px;
+  font-family: "Intro";
+  font-size: 30px;
+  color: #fff;
+}
+
+.card__button {
+  margin-left: 18px;
+  margin-top: 32px;
+  width: 135px;
+  height: 38px;
+  background: #5222d0;
+  border-radius: 100px;
+  font-family: "Intro";
+  font-size: 13px;
+  color: #fff;
+}
+.card__button:hover {
+  color: #ec615b;
+}
+
+.card__input {
+  width: 323px;
+  height: 50px;
+  margin-left: 18px;
+}
+
+::-moz-placeholder {
+  font-family: "Roboto Slab Light";
+  font-size: 20px;
+  color: #000;
+}
+
+::placeholder {
+  font-family: "Roboto Slab Light";
+  font-size: 20px;
+  color: #000;
+}/*# sourceMappingURL=index.css.map */
